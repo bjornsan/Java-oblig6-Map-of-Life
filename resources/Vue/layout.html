@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="utf8">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="/webjars/vue/2.6.10/dist/vue.min.js"></script>
+    @componentRegistration
+</head>
+<body>
+<main id="main-vue" v-cloak>
+    @routeComponent
+</main>
+<script>
+    new Vue({el: "#main-vue"});
+</script>
+<style>
+    body{
+        color: #342211;
+
+        font-family: 'Special Elite', cursive;
+
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/19/Field_notebook%2C_Cuba_and_Jamaica%2C_1937%2C_1941%2C_%281947%29_BHL45926938.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1800px;
+    }
+</style>
+</body>
+</html>
